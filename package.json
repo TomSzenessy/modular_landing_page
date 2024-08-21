@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "fs-extra": "^11.2.0",
+    "http": "^0.0.1-security",
+    "openai": "^4.56.0",
+    "path": "^0.12.7",
+    "socket.io": "^4.7.5"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "git_test",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

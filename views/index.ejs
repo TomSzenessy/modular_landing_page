@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Website Generator</title>
+		<link rel="stylesheet" href="/css/styles.css" />
+	</head>
+	<body>
+		<div id="prompt-container">
+			<h1>Enter your prompt to generate a website:</h1>
+			<form id="prompt-form" action="/generate" method="POST">
+				<input
+					type="text"
+					name="prompt"
+					placeholder="Describe your website..."
+					required
+				/>
+				<button type="submit">Generate</button>
+			</form>
+		</div>
+
+		<div id="loading-overlay" style="display: none">
+			<p>Generating your website, please wait...</p>
+		</div>
+
+		<div id="chat-popup" class="draggable">
+			<div id="chat-header">Chat with AI</div>
+			<div id="chat-content"></div>
+			<form id="chat-form">
+				<input
+					type="text"
+					id="chat-input"
+					placeholder="Type a message..."
+					required
+				/>
+				<button type="submit">Send</button>
+			</form>
+		</div>
+
+		<script src="/js/scripts.js"></script>
+	</body>
+</html>
