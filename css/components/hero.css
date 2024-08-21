@@ -1,0 +1,32 @@
+/* hero.css */
+.hero {
+	background: url('../img/hero-bg.jpg') no-repeat center center/cover;
+	color: white;
+	height: 90vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.hero .hero-content {
+	max-width: 600px;
+}
+
+.hero .hero-title {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.hero .hero-subtitle {
+	font-size: 1.25rem;
+	margin-bottom: 2rem;
+}
+
+.hero .hero-btn {
+	padding: 0.75rem 2rem;
+	background-color: #007bff;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
